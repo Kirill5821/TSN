@@ -1,0 +1,1094 @@
+body {margin: 0px; padding: 0px;
+background-color: #f0f0f0;}
+
+.bid {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	height: 75px;
+        width: 450px;
+	overflow: hidden;
+	padding: 1px 1px;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 5px;
+}
+.bid:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.item0 {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	height: 100px;
+        width: 900px;
+	overflow: hidden;
+	padding: 1px 1px;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 5px;
+}
+.item0:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+
+.product {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	height: 250px;
+	overflow: hidden;
+	padding: 25px 15px;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 20px;
+}
+.product:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.windowBid
+{
+    padding: 10px;
+
+}
+.windowItem
+{
+    border: 1px solid #c0c0c0;
+    margin:  10px;
+    padding: 10px;
+}
+.site-signup
+{
+    left: 100px;
+}
+.product-img {
+
+}
+
+.login-window {
+  padding: 20px 20px 0 20px;
+  width: 700px;
+  text-align: center;
+  margin: 10px;
+  
+  border: 2px solid #c6c7cc;
+  border-radius: 10px;
+}
+.login-window label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+
+.sortForm
+{
+    text-align: right;
+    color:rgb(15,80,80);
+    text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+}
+.sortForm select
+{
+    border-radius: 10px;
+    display:inline-block;
+	height:30px;
+	width:170px;
+}
+.prd {
+     vertical-align: top;
+}
+
+
+.item-title {
+    margin-left: 10px;
+    margin-bottom: 0px;
+	text-align: left;
+
+	width: 100%;
+	color:rgb(15,80,80);
+	 font: 16px/1.4 "Century Gothic";
+         font-weight:bold;
+}
+.item-price {
+        text-align: center;
+                vertical-align: top;
+	width: 100%;
+	color: #54CA44;
+	 font: 16px/1.4 "Century Gothic";
+	font-weight: 500;
+}
+.item-date {
+	text-align: center;
+                vertical-align: top;
+	width: 100%;
+	color:rgb(15,80,80);
+	 font: 15px/1.4 "Century Gothic";
+	font-weight: 500;
+}
+
+
+.product-title a {
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.bid-title {
+	bottom: 35px;
+        left: 10px;
+	text-align: left;
+	position: absolute;
+	width: 100%;
+	color:rgb(15,80,80);
+	 font: 16px/1.4 "Century Gothic";
+	font-weight: 500;
+}
+.bid-price {
+	bottom: 10px;
+	left: 10;
+        text-align: left;
+	position: absolute;
+	width: 100%;
+	color: #54CA44;
+	 font: 18px/1.4 "Century Gothic";
+	font-weight: 500;
+}
+.bid-date {
+	bottom: 35px;
+        right: 10px;
+	text-align: right;
+	position: absolute;
+	width: 100%;
+	color:rgb(15,80,80);
+	 font: 14px/1.4 "Century Gothic";
+	font-weight: 500;
+}
+.product-desc {
+	max-height: 60px;
+	overflow: hidden;
+}
+.product-price {
+	bottom: 30px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	color: #54CA44;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.toProductPage2 {
+	
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 14px/1.4 "Century Gothic";
+	border-radius:10px;
+	text-align: center;
+	display:inline-block;
+	height:25px;
+	width:130px;
+	background:rgb(100,170,170);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:30px;
+	transition:all .2s ease-out;
+}
+
+
+.toProductPage {
+	
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 14px/1.4 "Century Gothic";
+	border-radius:10px;
+	text-align: center;
+	display:inline-block;
+	height:25px;
+	width:130px;
+	background:rgb(100,170,170);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:30px;
+	transition:all .2s ease-out;
+	position:absolute;
+	bottom: 5px;
+	left: 35px;
+}
+.toProductPage:hover {
+	color:rgb(255,255,255);
+	background:rgb(30,105,105);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+
+.backBtn {
+	
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	border-radius:10px;
+	text-align: center;
+	display:inline-block;
+	height:30px;
+	width:170px;
+	background:rgb(100,170,170);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:30px;
+	transition:all .2s ease-out;
+        margin: 5px;
+	bottom: 5px;
+	left: 35px;
+}
+.backBtn:hover {
+	color:rgb(255,255,255);
+	background:rgb(30,105,105);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+
+.np-logo
+{
+background-image: url(images/38.jpg);
+height: 450px;
+vertical-align: top;
+background-size: 100% 100%;
+}
+.ad_logo
+{
+background-image: url(../../web/images/Ad.jpg);
+height: 100px;
+vertical-align: top;
+background-size: 100% 100%;
+}
+.np-logo1
+{
+height: 50px;
+background-color: #2f3262;
+vertical-align: top;
+background-size: 100% 100%;
+}
+.right-item {float: right}
+
+.title1
+{
+  font: 16px/1.4 "Century Gothic";
+color:#336;
+border-radius:5px;
+background-repeat: no-repeat;
+background:rgba(255,255,255,.4);
+background-position: right top;
+text-align: right;
+}
+
+.form1
+{
+	text-align: right;
+}
+
+.column
+{
+-webkit-columns: 200px 3;
+  -moz-columns: 200px 3;
+  columns: 200px 3;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  -webkit-column-rule: 1px solid #ccc;
+  -moz-column-rule: 1px solid #ccc;
+  column-rule: 1px solid #ccc;
+}
+
+.main_title
+{
+	text-align: left;
+  font: 16px/1.4 "Century Gothic";
+  font-weight: bold;
+	color:rgb(15,80,80);
+	margin-left: 100px;
+	line-height:0px;
+}
+.main_title2
+{
+	text-align: left;
+  font: 16px/1.4 "Century Gothic";
+    font-weight: bold;
+	color:rgb(15,80,80);
+	margin-left: 120px;
+	line-height:0px;
+}
+
+.reg
+{
+text-align: right;
+}
+.search
+{
+text-align: right;
+}
+
+.menu-nav ul {
+		float: left;
+		list-style: none;
+		margin: 2px;
+		padding:  0px;
+}
+
+.menu-nav li {
+		float: left;
+		list-style: none;
+		margin: 2px;
+		padding:  0px;
+}
+
+.menu-nav a {
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	border-radius:10px;
+	text-align: center;
+	display:inline-block;
+	height:50px;
+	width:170px;
+	background:rgb(75,150,150);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:50px;
+	transition:all .2s ease-out;
+	position:relative;
+	left:10px;
+	top:1px;
+}
+
+.menu-nav li a:hover {
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+
+.menu-nav2 ul {
+		float: left;
+		list-style: none;
+		margin: 2px;
+		padding:  0px;
+}
+
+.menu-nav2 li {
+		float: left;
+		list-style: none;
+		margin: 2px;
+		padding:  0px;
+}
+
+.menu-nav2 a {
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	text-align: center;
+	margin-left: 50px;
+	display:inline-block;
+	height:35px;
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:20px;
+	transition:all .2s ease-out;
+	position:relative;
+	left:10px;
+	top:1px;
+}
+
+.menu-nav2 li a:hover {
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+	border-radius:5px;
+    width: 200px;
+    top: 53px;
+    left: 0;
+    border: 1px solid red;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+.left_btn 
+{
+	float: left;
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	border-radius:30px;
+	text-align: center;
+	display:inline-block;
+	height:50px;
+	width:50px;
+	background:rgb(75,150,150);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:50px;
+	transition:all .2s ease-out;
+	position:relative;
+	left:10px;
+	top:0px;
+}
+.left_btn:hover {
+	color:rgb(255,255,255);
+	background:rgb(30,105,105);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+.right_btn 
+{
+	float: right;
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	border-radius:30px;
+	text-align: center;
+	display:inline-block;
+	height:50px;
+	width:50px;
+	background:rgb(75,150,150);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:50px;
+	transition:all .2s ease-out;
+	position:relative;
+	right:10px;
+	top:0px;
+}
+.right_btn:hover {
+	color:rgb(255,255,255);
+	background:rgb(30,105,105);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+.left-item {
+    float: left;
+	list-style: none;
+		margin: 2px;
+		padding:  0px;
+}
+.right-item {
+	list-style: none;
+		/*margin: 2px;
+		padding:  0px;*/
+		margin-right: 10px;
+	}
+	
+	.select-arrow {
+  position: absolute;
+  top: 38px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0 5px;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.titleNewItem {
+	text-align: center;
+	color:rgb(15,80,80);
+font: 18px/1.4 "Century Gothic";
+}
+	
+.left-item a {	
+	float: left;
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	border-radius:10px;
+	text-align: center;
+	display:inline-block;
+	height:50px;
+	width:170px;
+	background:rgb(75,150,150);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:50px;
+	transition:all .2s ease-out;
+	position:relative;
+	left:10px;
+	top:0px;
+}
+.right-item2 {
+	list-style: none;
+		margin: 2px;
+		padding: 0px;
+	}
+.right-item2 a {
+	float: right;
+	color:rgb(255,255,255);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	border-radius:10px;
+	text-align: center;
+	display:inline-block;
+	height:50px;
+	width:170px;
+	background:rgb(225,140,70);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:50px;
+	transition:all .2s ease-out;
+	position:relative;
+	right:50px;
+	top:1px;
+}
+
+.right-item2 a:hover {
+	color:rgb(255,255,255);
+	background:rgb(150,100,30);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+.right-item a {
+	float: right;
+	color:rgb(15,80,80);
+	text-decoration:none;
+  font: 16px/1.4 "Century Gothic";
+	border-radius:10px;
+	text-align: center;
+	display:inline-block;
+	height:50px;
+	width:150px;
+	background:rgb(75,150,150);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:50px;
+	transition:all .2s ease-out;
+	position:relative;
+	left:10px;
+	bottom:0px;
+}
+
+.left-item a:hover {
+	color:rgb(255,255,255);
+	background:rgb(30,105,105);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+.right-item a:hover {
+	color:rgb(255,255,255);
+	background:rgb(30,105,105);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+
+.top-menu {
+  background: rgba(115,185,180,1);
+}
+.top-menu2 {
+  background: rgba(140,210,210,1);
+}
+.top-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar-logo {
+    /*display: inline-block;*/
+}
+
+.itemlogo {
+    background:rgba(0,0,0,.5); 
+height: 100px;
+vertical-align: top;
+background-size: 100% 100%;
+}
+
+
+
+.nav a{
+	color:rgb(255,255,255);
+	text-decoration:none;
+	font:16px cursive, sans-serif;
+	border-radius:5px;
+	text-align: center;
+	display:inline-block;
+	height:40px;
+	width:192px;
+	background:rgba(0,0,0,.5);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:40px;
+	transition:all .2s ease-out;
+	position:relative;
+	left:10px;
+	top:5px;
+}
+.nav a:hover{
+	color:rgb(0,0,0);
+	background:rgb(255,255,255);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+.nav2 a{
+    color: rgb(100,100,100);
+	font:14px cursive, sans-serif;
+	border-radius:5px;
+	text-align: center;
+	display:inline-block;
+	height:22px;
+	width:220px;
+	background:rgba(0,0,0,.2);
+	margin-bottom:1px;
+	text-indent:0px;
+	line-height:20px;
+	transition:all .2s ease-out;
+	position:relative;
+	left:10px;
+	top:5px;
+}
+.nav2 a:hover{
+	color:rgb(255,255,255);
+	background:rgba(0,0,0,.4);
+	transform:scale(.9);
+	-webkit-transform:scale(.9);
+}
+
+.nav2 ol {
+    counter-reset:myCounter;
+    margin-left:0;
+    padding-left:5px;
+    color: rgb(100,100,100);
+   }
+
+.nav2 li {
+    position: relative;
+    padding-left: 2em;
+    margin: 0.45em 0;
+    list-style: none;
+    line-height: 1.8em;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    }
+
+.nav2 li:hover {
+    color: rgb(0,0,0);
+}
+
+.nav2 li:before {
+    content:counter(myCounter);
+	counter-increment:myCounter;
+	position:absolute;
+	top:0;
+	left:0;
+	width: 1.8em;
+	height: 1.8em;
+	line-height: 1.8em;
+	padding:0px;
+	color:#fff;
+	background:#2980b9;
+	font-weight:bold;
+	text-align:center;
+	border-radius: .9em;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.3);
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav2 li:hover:before {
+	background-color: #2ecc71;
+}
+
+.nav2 li li:before{
+	background-color: #3498db;
+}
+
+.nav2 li:after {
+	position: absolute;
+	top: 2.1em;
+	left: 0.9em;
+	width: 2px;
+	height: calc(100% - 2em);
+	content: '';
+	background-color: rgb(203, 203, 203);
+	z-index: 0;
+}
+
+.nav2 li:hover:after {
+	background-color: #2ecc71;	
+}
+
+.nav2 li li {
+	font-size: 0.8em;
+}
+
+
+.nav{
+	margin:0px;
+}
+
+.pff{
+	margin:0px;
+}
+
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
+}
+
+input[type=search] {
+	background:rgba(0,0,0,.75) url(images/searchIconDark.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	position:relative;
+	left:-10px;
+	top:10px;
+	opacity:0.8;
+	padding: 9px 10px 9px 32px;
+	width: 50px; /* Ширина по умолчанию */
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px; /* Ширина при наличии фокуса ввода */
+	background-color: #fff;
+	border-color: #6dcff6;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5); /* Эффект свечения */
+}
+
+.formPoll {
+  border: 1px solid #c6c7cc;
+  background-color: rgb(255,255,255);
+  border-radius: 5px;
+  font: 16px/1.4 "Century Gothic";
+  overflow: hidden;
+  width: 240px;
+  position:relative;
+  left:10px;
+  margin: 10px;
+  
+}
+.formPoll p {
+  margin-left: 10px;
+}
+.formPoll fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.poll-info {
+  padding: 20px 20px 0 20px;
+}
+
+.poll-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;  
+  padding: 6px;
+  margin-top: 6px;
+  /*width: 100%;*/
+}
+.poll-info p {
+  color: #336;
+}
+.poll-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+
+.formAccount {
+  border: 1px solid #c6c7cc;
+  background-color: rgb(255,255,255);
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 500px;
+  position:relative;
+  left:35%;
+  margin: 10px;
+  
+}
+.formAccount fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.account-info {
+  padding: 20px 20px 0 20px;
+  border: 2px solid #c6c7cc;
+ border-radius: 10px;
+}
+.account-info label {
+    color:rgb(15,80,80);
+  display: block;
+  font-weight: bold;
+  font: 16px/1.4 "Century Gothic";
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.filter {
+  /*padding: 20px 20px 0 20px;*/
+}
+.filter label {
+    color:rgb(15,80,80);
+  /*display: block;*/
+  font-weight: bold;
+  font: 16px/1.4 "Century Gothic";
+  /*margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 10px;*/
+}
+
+.leftmenu {
+	padding-left: 10px;
+	background-color: #ffffff;
+	padding: 10px 10px 10px 15px ;
+	box-shadow: 0 2px 1px #dee2e3;
+	-moz-box-shadow: 0 2px 1px #dee2e3;
+	-webkit-box-shadow: 0 2px 1px #dee2e3;
+}
+
+.leftmenu .title {
+	font-weight: 700;
+	display: block;
+	margin: 10px;
+	border-bottom: 1px solid #dee2e3;
+}
+.leftmenu .search-item .form-group{
+	text-align: right;
+}
+.leftmenu .form-group label, .top-search .form-group label{
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+
+.leftmenu .search-label, .top-search  .search-label{
+	padding-bottom: 14px;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.leftmenu .search-item, .top-search .search-item {
+	padding: 10px;
+	border-bottom: 1px dotted #dee2e3;
+}
+
+.leftmenu .form-group .cy {
+	width: 45px;
+}
+.leftmenu .form-group .cy-to {
+	width: 80px;
+}
+
+
+
+/*.account-info input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;  
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}*/
+.textBox {
+border-radius: 5px;
+  font: 16px/1.4 "Century Gothic";
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;  
+  padding: 6px;
+  margin-top: 6px;
+  width: 92%;
+}
+.account-info p {
+  color:rgb(15,80,80);
+}
+.account-action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.btn {
+  background:rgb(75,150,150);
+    margin: 10px;
+  border: 0;
+  text-align: right;
+  color:rgb(15,80,80);
+  cursor: pointer;
+  font-weight: bold;
+  font: 16px/1.4 "Century Gothic";
+  padding: 8px 24px;
+  border-radius:5px;
+  transition:all .2s ease-out;
+}
+.btn:hover{
+  color:rgb(255,255,255);
+	background:rgb(30,105,105);
+    margin: 10px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius:5px;
+  -webkit-transform:scale(.9);
+}
+.nameIten
+{
+    color:rgb(15,80,80);
+    font: 24px/1.4 "Century Gothic";
+    font-weight: bold;
+}
+.descrIten
+{
+    color:rgb(15,80,80);
+    font: 16px/1.4 "Century Gothic";
+}
+
+.formBid
+{
+    vertical-align: top;
+    text-align: left;
+}
+
+.descrItenTitle
+{
+    color:rgb(15,80,80);
+    font: 18px/1.4 "Century Gothic";
+    font-weight: bold;
+}
+
+#title {
+	top: 10px;
+background:rgba(0,0,0,.5);
+}
+.title3 {
+margin-left: 0px;
+color:rgb(15,80,80);
+ font: 24px/1.4 "Century Gothic";
+}
+#Зміст {
+margin-left: 150px;
+ text-decoration: underline overline;
+}
+#Новини {
+margin-left: 100px;
+ text-decoration: underline overline;
+}
+#header {
+margin: 10px;
+padding: 1%;
+text-align: center;
+font: bold xx-large normal;
+}
+
+#main {
+margin: 0px;
+padding: 0px;
+position: relative;
+width: 100%;
+overflow: hidden;
+}
+
+#leftmenu {
+		float: left;
+		position: absolute;
+		width: 18%;
+		height: 99%;
+		padding: 0px;
+		background:rgba(0,0,0,.05);
+		border: 1px solid rgba(0,0,0,1);
+}
+
+#content {
+		width: 62%;
+		float: left;
+		padding: 0%;
+		margin-left: 19%;
+		background:rgba(0,0,0,.05);
+		border: 1px solid rgba(0,0,0,1);
+}
+
+#rightmenu {
+		position: absolute;
+		width: 16%;
+		height: 99%;
+		padding: 1%;
+		right: 0px;
+		background:rgba(0,0,0,.05);
+		border: 1px solid rgba(0,0,0,1);
+		}
+#rightmenuwind {
+		padding: 1%;
+		margin-bottom: 5px;
+		background:rgba(0,0,0,.05);
+		border: 1px solid rgba(0,0,0,1);
+		border-radius: 10px;
+		}
+
+
+
+
